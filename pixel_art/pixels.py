@@ -35,7 +35,7 @@ class Image():
            lst.append([])
        return lst
 
-    def disaply(self):
+    def display(self):
         for row in self.img:
             self.display_row(row)
 
@@ -55,7 +55,3 @@ class Image():
             color_params = args[1:]
             colors = [self.convert_color(arg) for arg in color_params]
             self.img[args[0]] = colors
-
-
-
-
