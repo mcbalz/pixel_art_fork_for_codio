@@ -1,4 +1,4 @@
-import pixels_art.pixels as pixels
+import pixel_art.pixels as pixels
 
 def colors():
   print(f"{pixels.BLACK}{pixels.Back.RESET} - 'black'")
